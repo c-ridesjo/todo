@@ -9,6 +9,7 @@ listDrop.addEventListener("change", (e) => {        // Lyssnar på change - när
 })
 
 export default function printTodos(list) {      //  Funktionen hämtar bara en specifik lista
+                                // Från den här modulen är det bara printTodos som exporteras, därav DEFAULT
 
     if (!list) {        // if list-Id inte har ett värde - om null returneras sätter vi list till 1.
         list = 1

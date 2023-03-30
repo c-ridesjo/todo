@@ -1,7 +1,7 @@
 let inputForm = document.getElementById("inputForm");
 
 export let listDrop = document.createElement("select");             // Lite krångligare lösning på denna sida
-listDrop.id = "listIdSelect";
+listDrop.id = "listIdSelect";                   // Den här modulen exporterar ut två olika saker, därav EJ default
 
 export function printLists() {
     fetch("http://localhost:3000/lists")    
