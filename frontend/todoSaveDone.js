@@ -1,6 +1,6 @@
 import printTodos from "./printTodos.js";
 
-export default function todoSaveDone(id, list) {
+export default function todoSaveDone(id, list) {    // Exporterar modulen (döp modulen till samma som funktionen - tips!    )
 
     console.log("Spara item som klar", id);
     
